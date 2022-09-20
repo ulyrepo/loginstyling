@@ -1,0 +1,48 @@
+/*
+*ulysses custom wp login
+*/
+.login h1 a {
+    background-image: url('https://github.com/ulyrepo/loginstyling/blob/main/assets/img/LOGIN-UL.png?raw=true');
+    background-size: 250px 90px;
+    width: 250px;
+    height: 90px;
+    }
+
+.login form {
+background: #ffffff52 !important;
+border-radius: 3px;
+border: none !important;
+}
+
+.login #backtoblog a, .login #nav a {
+    color:#ababab;
+}
+.login label {
+    color: #fff;
+}
+
+    .language-switcher {
+display:none !important;
+    }
+
+    body.login {
+background: #0d1821;
+}
+
+/*
+*Button color
+*/
+.wp-core-ui .button-primary {
+background: #2c2c2c !important;
+border-color: #2c2c2c !important;
+}
+.wp-core-ui .button-primary:hover {
+background: #4e4e4e !important;
+border-color: #4e4e4e !important;
+}
+/*
+*Eye and button text
+*/
+.wp-core-ui .button {
+color: #d7980b !important;
+}
