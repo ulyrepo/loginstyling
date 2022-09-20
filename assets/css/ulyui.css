@@ -2,47 +2,74 @@
 *ulysses custom wp login
 */
 .login h1 a {
-    background-image: url('https://github.com/ulyrepo/loginstyling/blob/main/assets/img/LOGIN-UL.png?raw=true');
-    background-size: 250px 90px;
+    background-image: url('https://github.com/ulyrepo/loginstyling/blob/main/assets/img/login-uly.png?raw=true');
+    background-size: 250px 86px;
     width: 250px;
-    height: 90px;
-    }
+    height: 86px;
+    margin-top: 20px;
+}
 
 .login form {
-background: #ffffff52 !important;
-border-radius: 3px;
-border: none !important;
+    background: #0000009e !important;
+    border-radius: 3px;
+    border: none !important;
 }
 
-.login #backtoblog a, .login #nav a {
-    color:#ababab;
+.login #backtoblog a,
+.login #nav a {
+    color: #202020;
 }
+
+.login #backtoblog a:hover,
+.login #nav a:hover {
+    color: #000;
+}
+
 .login label {
     color: #fff;
 }
 
-    .language-switcher {
-display:none !important;
-    }
+.language-switcher {
+    display: none !important;
+}
 
-    body.login {
-background: #0d1821;
+body.login {
+    background: #fff;
 }
 
 /*
-*Button color
-*/
+  *Button color
+  */
 .wp-core-ui .button-primary {
-background: #2c2c2c !important;
-border-color: #2c2c2c !important;
+    background: #000 !important;
+    border-color: #000 !important;
 }
+
 .wp-core-ui .button-primary:hover {
-background: #4e4e4e !important;
-border-color: #4e4e4e !important;
+    background: #222 !important;
+    border-color: #222 !important;
 }
+
 /*
-*Eye and button text
-*/
-.wp-core-ui .button {
-color: #d7980b !important;
+  *Eye and button text
+  */
+span.dashicons.dashicons-visibility {
+    color: #000 !important;
+}
+
+.login .button.button-secondary.wp-hide-pw.hide-if-no-js:focus {
+    border-color: #000;
+    outline: none;
+}
+
+.login input[type=text]:hover {
+    border: #000 1px solid;
+    background-color: rgb(131, 205, 255);
+}
+
+.js.login input.password-input:hover,
+.js.login-action-rp form .input:hover,
+.js.login-action-rp input[type=text]:hover {
+    border-color: #000;
+    background-color: rgb(131, 205, 255);
 }
